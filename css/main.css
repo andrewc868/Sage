@@ -1,0 +1,331 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300);
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	position: absolute;
+	display: block;
+	width: 83.125%;
+	margin-left: 127px;
+}
+
+#logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+main{
+	padding-top: 70px;
+}
+.carousel{
+	display:block;
+	text-align: center;
+	margin: 0 auto;
+	background: url(../img/background.jpg) no-repeat center center;
+	background-size: cover;
+	background-color: #807c7f;
+	height: 1011px;
+}
+/* nav ul{
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+
+} */
+/* .slide{
+	margin-top: -40px;
+	display: inline-block;
+	height: 4px;
+	margin-right: 5px;
+	width: 40px;
+	float: left;
+	background: #69574d;
+
+} */
+.carousel h1{
+	padding-top: 314px;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 120px;
+	color: #ffffff;
+	letter-spacing: .15em;
+	line-height: 144px;
+
+} 
+
+.carousel p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #adaaac;
+	line-height: 26px;
+	margin-top: 59px;
+}
+
+.carousel a{
+	background-color: #ffffff;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 20px;	
+	letter-spacing: 3px;
+	color: #000000;
+	width: 230px;
+	height: 50px;
+	margin-top: 50px;
+	padding-top: 16px;
+}
+.nav-links a{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	color: #cacaca;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 41px;
+	float: right;
+}
+
+.nav-link a:active{
+	color: #f63c3c;
+	border-bottom: 4px solid #f63c3c transparent;
+}
+header ul li:first-child{
+	margin-right: 0;
+}
+
+.inactive{
+	display: none;
+}
+.news article:hover{
+	display: initial;
+}
+.news h1{
+	margin-top: 53px;
+	margin-bottom: 55px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.news h1{
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 4.8px;
+}
+
+.news h2{
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 3.16px;	
+	margin-top: 26px;
+	margin-bottom: 18px;
+}
+
+.news p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 120px;
+}
+
+.news article figcaption h4{
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	letter-spacing: 2.88px;
+}
+
+.news article figure a figcaption p{
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 1.68px;
+}
+.news article{
+	text-align: center;
+}
+
+.news article:nth-child(even){
+	display: inline-block;
+	width: 49.3%;
+	float: left;
+}
+
+.news article:nth-child(odd){
+	display: inline-block;
+	width: 49.3%;
+	float: right;
+}	
+
+.news article:last-child{
+	float: none;
+}
+
+.news figcaption{
+	display: none;
+}
+.news figure{
+	width: 100%; 
+	overflow: hidden;
+}
+
+.showcase {
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	letter-spacing: 3px;
+	height: 240px;
+	width: 100%;
+	background-color: #f63c3c;
+	text-align: center;
+	padding-top: 60px;
+	color: #fff;
+}
+
+.showcase p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #fbb2b2;
+}
+.showcase a{
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing: 3px;
+	color: #685157;
+	background: #fff;
+	padding: 12px 82px;
+}
+.social{
+	height: 433px;
+	width: 92%;
+	margin: 0 auto;
+}
+.social a{
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing: 3.6px;
+	color:#ffffff;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding-top: 45px;
+	width: 270px;
+	height: 195px;
+	background: #30282a;
+	float: left;
+	margin-right: 30px;
+}
+aside ul li:last-child{
+	margin-right: 0px;
+}
+.social i{
+	margin-bottom: 24px;
+}
+
+.social h2{
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 4.8px;
+	margin-top: 65px;
+}
+
+.social p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 16px;	
+	letter-spacing: .16px;
+	margin-top: 18px;
+	margin-bottom: 61px;
+}
+
+.more a{
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #f63c3c;
+	letter-spacing: 2.4px;
+	border-bottom: 4px solid #f63c3c;
+	position: absolute;
+    margin-top: 1358px;
+    margin-left: -79px;
+}
+footer{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing: .325px
+	height: 73px;
+	width: 92%;
+	margin: auto;
+	margin-top: 23px;
+	margin-bottom: 38px;
+}
+.navbar{
+display: block;
+width: 40px;
+height: 4px;
+background: #f63c3c;
+float: right;
+}
+
+.bottom{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fafafa;
+}
+.nav-links a:active{
+	color:#f63c3c;
+}
+.bar-container{
+	display: inline-block;
+
+}
+.home-bar{
+	position:relative;
+	width: 50%;
+	display: block;
+	margin-top: 66px;
+	width: 40px;
+	height: 4px;
+	background: #f63c3c;
+}
+
+
+
+
+
+
+
+
+
+

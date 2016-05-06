@@ -4,97 +4,147 @@
 	<meta charset="UTF-8">
 	<title>SAGE</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<header>
-		<img src="img/logo.svg" alt="SAGE">
+	<header class="container clearfix">
+				<img id="logo" src="img/logo.svg" alt="SAGE">
 		<nav>
-			<ul>
-				<li><a href="#" class="active">Home</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
+			<ul class="nav-links">
+				<li><a href="#">Get in Touch</a></li></span>
 				<li><a href="#">Blog</a></li>
-				<li><a href="#">Get in Touch</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#" class="active">Home</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
 		<section>
-			<ul>
+			<ul class="carousel">
 				<li class="active">
-					<h1>We build websites and apps that people love</h1>
-					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
+					<h1>WE BUILD WEBSITES AND<br>APPS THAT PEOPLE LOVE</br></h1>
+					<p>Full suite of internet services in the areas of website development, web-based<br>enterprise solutions, corporate identity and advertisement.</br></p>
+					<a class="button" href="#">Explore More</a>
 				</li>
-				<li>
+				<li class="inactive">
 					<h1>We build websites and apps that people love</h1>
 					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
+					<a class="button" href="#">Explore More</a>
 				</li>
-				<li>
+				<li class="inactive">
 					<h1>We build websites and apps that people love</h1>
 					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
+					<a class="button" href="#">Explore More</a>
 				</li>
-				<li>
+				<li class="inactive">
 					<h1>We build websites and apps that people love</h1>
 					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
+					<a class="button" href="#">Explore More</a>
 				</li>
 			</ul>
 			<nav>
 				<ul>
-					<li class="active"></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li class="active slide"></li>
+					<li class="slide"></li>
+					<li class="slide"></li>
+					<li class="slide"></li>
 				</ul>
 			</nav>
 		</section>
-		<section>
+		<section class="news clearfix">
 			<h1>MY PROJECTS</h1>
 			<article>
-				<figure><a href="#"><img src="img/book.jpg" alt="MODEL S CATALOG"></a></figure>
+				<figure>
+					<a href="#">
+						<img src="img/book.jpg" alt="MODEL S CATALOG">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									<br>Client: Personal Project</br>
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>
+					</a>
+				</figure>
 				<h2>MODEL S CATALOG</h2>
 				<p>information materials that will help to discover all features of th serial electric car Tesla Model S</p>
 			</article>
 			<article>
-				<figure><a href="#"><img src="img/discovery.jpg" alt="DISCOVERY"></a></figure>
+				<figure>
+					<a href="#">
+						<img src="img/discovery.jpg" alt="DISCOVERY">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									<br>Client: Personal Project</br>
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>						
+					</a>
+				</figure>
 				<h2>DISCOVRY CHANNEL IPAD</h2>
 				<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
 			</article>
 			<article>
-				<figure><a href="#"><img src="img/stuhrling.jpg" alt="STURLING"></a></figure>
+				<figure>
+					<a href="#">
+						<img src="img/stuhrling.jpg" alt="STURLING">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									<br>Client: Personal Project</br>
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>	
+					</a>
+				</figure>
 				<h2>STUHRLING</h2>	
 				<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
 			</article>
 			<article>
-				<figure><a href="#"><img src="img/penguin.jpg" alt="INFINITY SPACES"></a></figure>
+				<figure>
+					<a href="#">
+						<img src="img/penguin.jpg" alt="INFINITY SPACES">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									<br>Client: Personal Project</br>
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>	
+					</a>
+				</figure>
 				<h2>INFINITY SPACES</h2>
 				<p>Infinity ∞ is an abstract concept describing something without any limit and is relevant in a number of fields</p>
 			</article>
-			<a href="#">SHOW MORE PROJECTS</a>
+			<footer class="more">
+				<a href="#">SHOW MORE PROJECTS</a>
+			</footer>
 		</section>
-		<aside>
+		<aside class="showcase">
 			<h2>SHOWCASING YOUR WORK HAS NEVER BEEN MORE FUN</h2>
 			<p>Discover elegant solution for your onlin portfolio. Fast, reliable, affordable...</p>
 			<a href="#">GET IN TOUCH</a>
 		</aside>
-		<aside>
+		<div class="bottom clearfix">
+		<aside class="social">
 			<h2>STAY CONNECTED</h2>
 			<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
 			<ul>
-				<li><a href="#" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i>BEHANCE</a></li>
-				<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></i>FACEBOOK</a></li>
-				<li><a href="#" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i>PINTEREST</a></li>
-				<li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>LINKEDIN</a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-behance fa-3x" aria-hidden="true"></i><br>BEHANCE</br></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></i><br>FACEBOOK</br></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-pinterest fa-3x" aria-hidden="true"></i><br>PINTEREST</br></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i><br>LINKEDIN</br></a></li>
 			</ul>
 		</aside>
 	</main>
 	<footer>
 		<small>&copy; 2015 SAGE Agency Worldwide. All rights reserved</a></small>
 	</footer>
+	</div>
 </body>
 </html>
 
